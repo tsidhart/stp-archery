@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: brown;
+  color: white;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+header img {
+  vertical-align: middle;
+}
+
+nav {
+  margin-left: 2rem;
+  font-size: 25px;
+}
+
+h2 {
+  margin-left: 2rem;
+  font-size: 25px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+#logo-img {
+  width:70px;
+  height:70px;
+  border-radius:50%;
+}
+
+#current-page {
+  color: brown;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a {
+  margin-right: 50px;
+}
+
+.name-head {
+  font-size: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.about-font {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+}
+
+.student-container {
+  width:auto;
+  padding: 0rem 2rem;
+  flex-wrap: wrap;
+}
+
+.student-img {
+  width:200px;
+  height:150px;
+}
+
+footer {
+  height: 7rem;
+  background:grey;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.contacts-addr {
+  font-style:normal;
+  font-size: 1rem;
+}
+
+.grid {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: .5px solid black;
+}
+
+.grid-cell {
+    flex: 1;
+    align-items: flex-end;
+    margin: 0 1rem 0 1rem;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex2 {
+  flex: 2;
+}
